@@ -23,17 +23,17 @@ import "./firebase/firebase";
 
 const store = configureStore();
 
-store.dispatch(addExpense({description: "water bill", amount: 5000, createdAt: 0}));
-store.dispatch(addExpense({description: "gas bill", amount: 2000, createdAt: 1000}));
-store.dispatch(addExpense({description: "rent", amount: 109500, createdAt: 0}));
+// store.dispatch(addExpense({description: "water bill", amount: 5000, createdAt: 0}));
+// store.dispatch(addExpense({description: "gas bill", amount: 2000, createdAt: 1000}));
+// store.dispatch(addExpense({description: "rent", amount: 109500, createdAt: 0}));
 // store.dispatch(setTextFilter("water"));
 
 // setTimeout(() => {
 //     store.dispatch(setTextFilter("bill"));
 // }, 1000)
 
-const state = store.getState();
-const visibleExpenses = getVisibleExpenses(state.expenses, state.filters);
+// const state = store.getState();
+// const visibleExpenses = getVisibleExpenses(state.expenses, state.filters);
 
 // console.log(visibleExpenses);
 
