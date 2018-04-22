@@ -32,10 +32,10 @@ const store = configureStore();
 //     store.dispatch(setTextFilter("bill"));
 // }, 1000)
 
-// const state = store.getState();
-// const visibleExpenses = getVisibleExpenses(state.expenses, state.filters);
+ const state = store.getState();
+ const visibleExpenses = getVisibleExpenses(state.expenses, state.filters);
 
-// console.log(visibleExpenses);
+ console.log(visibleExpenses);
 
 
 //definujeme store, ktery budeme pro komponenty zpristupnovat
